@@ -1,0 +1,75 @@
+{
+  "game": {
+    "title": "Indian Transportation Simulator",
+    "version": "0.1.0",
+    "author": "valaparlashannu2010-glitch",
+    "description": "A comprehensive transportation simulator featuring Indian vehicles and traffic dynamics"
+  },
+  "display": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "fullscreen": false,
+    "v_sync": true
+  },
+  "physics": {
+    "gravity": 9.8,
+    "physics_timestep": 0.01666,
+    "max_iterations": 10
+  },
+  "traffic": {
+    "max_vehicles": 50,
+    "spawn_rate": 0.02,
+    "traffic_density": "medium"
+  },
+  "vehicles": [
+    {
+      "type": "auto_rickshaw",
+      "max_speed": 60,
+      "acceleration": 5.0,
+      "mass": 400,
+      "color": "yellow"
+    },
+    {
+      "type": "bus",
+      "max_speed": 80,
+      "acceleration": 3.0,
+      "mass": 5000,
+      "color": "red"
+    },
+    {
+      "type": "truck",
+      "max_speed": 70,
+      "acceleration": 2.5,
+      "mass": 8000,
+      "color": "brown"
+    },
+    {
+      "type": "motorcycle",
+      "max_speed": 100,
+      "acceleration": 7.0,
+      "mass": 150,
+      "color": "black"
+    },
+    {
+      "type": "car",
+      "max_speed": 120,
+      "acceleration": 6.0,
+      "mass": 1000,
+      "color": "blue"
+    },
+    {
+      "type": "tata_tempo",
+      "max_speed": 65,
+      "acceleration": 4.0,
+      "mass": 2000,
+      "color": "orange"
+    }
+  ],
+  "debug": {
+    "enabled": true,
+    "show_colliders": false,
+    "show_fps": true,
+    "show_vehicle_info": true
+  }
+}

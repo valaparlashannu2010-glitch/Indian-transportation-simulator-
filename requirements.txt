@@ -1,0 +1,20 @@
+# Requirements for Indian Transportation Simulator
+
+# Core Dependencies
+pygame>=2.1.0
+numpy>=1.21.0
+
+# Development Dependencies
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.0.0
+flake8>=4.0.0
+pylint>=2.0.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Performance Profiling
+memory-profiler>=0.60.0
+line-profiler>=3.5.0
