@@ -1,0 +1,49 @@
+# Unity
+Library/
+Temp/
+obj/
+Build/
+Builds/
+*.apk
+*.aab
+*.unitypackage
+
+# Generated files
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.userprefs
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+/Assets/StreamingAssets/
+/LocalPackages/
+/Logs/
+
+# Large files
+*.zip
+*.rar
+*.tar.gz
+*.mp4
+*.mov
+*.avi
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+
+# Cache
+*.cache
+*.tmp.*
